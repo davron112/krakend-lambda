@@ -11,10 +11,10 @@ import (
 	"testing"
 	"time"
 
-	krakendlambda "github.com/krakendio/krakend-lambda/v2"
-	"github.com/luraproject/lura/v2/config"
-	"github.com/luraproject/lura/v2/logging"
-	"github.com/luraproject/lura/v2/proxy"
+	krakendlambda "github.com/davron112/krakend-lambda/v2"
+	"github.com/davron112/lura/v2/config"
+	"github.com/davron112/lura/v2/logging"
+	"github.com/davron112/lura/v2/proxy"
 )
 
 var endpoint = flag.String("aws_endpoint", "http://192.168.99.100:4574", "url of the localstack's endpoint")
